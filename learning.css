@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainbase{
+    height: 100vh;
+    background-color: blueviolet;
+}
+.headbase{
+    height: 10%;
+    width: 100%;
+    background-color: darksalmon;
+    display: flex;
+    justify-content: space-evenly;
+}
+.bs1{
+    height: 100%;
+    width: 10%;
+    background-color: yellowgreen;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.bs2{
+    height: 100%;
+    width: 45%;
+    background-color: rgb(211, 66, 66);
+    border: 4px double blue;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+p{
+    color: rgba(555, 333, 333, .555);
+    margin-top: 3%;
+    text-align: center;
+    font-size: 150%;
+    display: inline-block;
+}
+p:hover{
+    background-color: blue;
+    color: black;
+    border-radius:40px ;
+
+}
+.bs3{
+    height: 100%;
+    width: 45%;
+    background-color: yellowgreen;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 3%;
+}
+li{
+    display: inline-block;
+    background-color: white;
+    border-radius: 40px;
+}
+li:hover{
+    background-color: blue;
+    color: red;
+}
+
+.base2{
+    height: 50%;
+    width: 25%;
+    background-color: black;
+    margin-left:3% ;
+    margin-top: 3%;
+    padding: 10px;
+}
+.base2a{
+    height: 10%;
+    width: 95%;
+    background-color: rgb(80, 80, 107);
+    margin-left:2.5% ;
+}
+.base2a h2{
+    text-align: center;
+}
+.base2b{
+    height: 20%;
+    width: 95%;
+    background-color: rgb(176, 176, 202);
+    margin-left:2.5% ;
+    margin-top: 2%;
+}
+.base2b input{
+    height: 100%;
+    width: 100%;
+}
+.base2c{
+    height: 10%;
+    width: 95%;
+    background-color: rgb(107, 107, 136);
+    margin-left:2.5% ;
+}
+   .base2d{
+    height: 20%;
+    width: 95%;
+    margin-left: 2.5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 1%;
+    row-gap: 10%;
+   }
+   .b1{
+    background-color: rgb(33, 33, 68);
+    text-align: center;
+   }
+   .base2d b1 button{
+    text-size-adjust: 100%;
+   }
+
